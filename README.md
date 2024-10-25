@@ -1,3 +1,3 @@
-# CSS-Grid
-# CSS-Grid
-# CSS-Grid
+Buen uso de CSS Grid
+Fidelidad del esquema
+Despliegue en Github Pages
