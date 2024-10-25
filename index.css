@@ -16,7 +16,6 @@ main{
     grid-template-rows: 480px 480px 480px;
     column-gap: 40px;
     row-gap: 80px;
-
 }
 
 .oldPyramidHead{
@@ -25,7 +24,6 @@ main{
     grid-row: 1;
     width: 600px;
     height: 220px;
-
 }
 
 p{
@@ -51,8 +49,7 @@ p{
     grid-column: 2;
     grid-row: 1;
     width: 160px;
-    height: 550px;
-    
+    height: 550px;    
 }
 
 .pyramidJamesDance{
@@ -63,7 +60,6 @@ p{
     grid-row-end: 2;
     width: 500px;
     height: 850px;
-
 }
 
 .mannequinBack{
@@ -81,7 +77,6 @@ p{
     grid-row-start:2;
     width: 450px;
     height: 300px;
-    ;
 }
 
 .lyingFigure{
@@ -91,7 +86,6 @@ p{
     width: 230px;
     height: 300px;
 }
-
 
 .mandarin{
     display: grid;
