@@ -1,3 +1,7 @@
-Buen uso de CSS Grid
-Fidelidad del esquema
-Despliegue en Github Pages
+Project description:
+
+Good use of CSS Grid
+
+Schema fidelity
+
+Deployment to Github Pages
