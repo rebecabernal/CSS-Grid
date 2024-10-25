@@ -1,32 +1,40 @@
 body{
-    max-width: 600px;
+    max-width: 1024px;
+    max-height: 1440px;
+    background-color: rgb(61, 1, 1);
 }
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 512px 512px;
+    grid-template-rows: 250px;
 }
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 204,8px 204,8px 204,8px 204,8px 204,8px;
+    grid-template-rows: 480px 480px 480px;
+    column-gap: 40px;
+    row-gap: 80px;
 
 }
 
 .oldPyramidHead{
     display: grid;
-    grid-column: 1;
-    grid-row: 1;
-    width: 200px;
-}
-
-.lyingFigureClose{
-    display: grid;
     grid-column: 2;
     grid-row: 1;
-    width: 200px;
+    width: 600px;
+    height: 220px;
+
+}
+
+p{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    font-size:55px;
+    text-align: center;
+    font-style: oblique;
 }
 
 
@@ -34,16 +42,16 @@ main{
     display: grid;
     grid-column: 1;
     grid-row: 1;
-    width: 100px;
-    height: 250px;
+    width: 180px;
+    height: 480px;
 }
 
 .mannequinFront{
     display: grid;
     grid-column: 2;
     grid-row: 1;
-    width: 100px;
-    height: 250px;
+    width: 160px;
+    height: 550px;
     
 }
 
@@ -53,8 +61,8 @@ main{
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 850px;
 
 }
 
@@ -62,49 +70,50 @@ main{
     display: grid;
     grid-column: 5;
     grid-row: 1;
-    width: 100px;
-    height: 250px;
+    width: 160px;
+    height: 550px;
 }
 
-.originalGame{
+.lyingFigureClose{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start:2;
-    width: 250px;
-    height: 150px;
-    
+    width: 450px;
+    height: 300px;
+    ;
 }
 
-.bubbleHeadNurseClose{
+.lyingFigure{
     display: grid;
     grid-column: 5;
     grid-row:2;
-    width: 140px;
-    height: 150px;
+    width: 230px;
+    height: 300px;
 }
+
 
 .mandarin{
     display: grid;
     grid-column: 1;
     grid-row: 3;
-    width: 100px;
-    height: 250px;
+    width: 250px;
+    height: 450px;
 }
 
-.lyingFigure{
+.bubbleHeadNurseClose{
     display: grid;
     grid-column: 2;
-    grid-row: 3;
-    width: 100px;
-    height: 250px;
+    grid-row:3;
+    width: 250px;
+    height: 450px;
 }
 
 .abstractDaddy{
     display: grid;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row: 3;
-    width: 100px;
-    height: 250px;
+    width: 815px;
+    height: 580px;
 }
