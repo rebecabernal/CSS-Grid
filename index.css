@@ -5,25 +5,24 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 120px;
-    background-color: aliceblue;
 }
 
 main{
     display: grid;
     grid-template-columns: 256px, 256px, 256px, 256px, 256px;
     grid-template-rows: 240px, 240px, 240px;
-    background-color: aqua;
     row-gap: 5px;
     column-gap: 5px;
 }
 
-.oldPyramidHead{
+
+.abstractDaddy{
     display: grid;
     grid-column: 2;
     grid-row: 1;
-    width: 350px;
+    width: 330px;
     height: 120px;
 }
 
@@ -105,11 +104,11 @@ p{
     height: 170px;
 }
 
-.abstractDaddy{
+.mariaBossForm{
     display: grid;
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row: 3;
-    width: 420px;
+    width: 410px;
     height: 180px;
 }
