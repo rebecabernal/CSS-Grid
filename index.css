@@ -2,12 +2,14 @@ body{
     display:flex;
     flex-flow: wrap;
     max-width: 750px;
-    max-height: 800px;
+    max-height: 750px;
     flex-direction: column;
+
     background-color: rgba(79, 33, 26, 0);
-    background-image: url("./imgSilentHill2/silentHill2Background.jpg");
-    background-size: 750px 850px;
+    background-image: url("imgSilentHill2/silentHill2Background.jpg");
+    background-size: 730px 750px;
     background-blend-mode:color-dodge;
+    background-repeat: no-repeat;
 }
 
 
@@ -22,7 +24,12 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 240px, 240px, 240px;
     row-gap: 5px;
-    column-gap: 5px;
+    background-image: url("imgSilentHill2/redSquare.png");
+    background-size: 425px 425px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top 150px left 150px;
+ 
 }
 
 
