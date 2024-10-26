@@ -2,9 +2,10 @@ body{
     background-color: rgb(61, 1, 1);
 }
 
+
 header{
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 350px 350px;
     grid-template-rows: 120px;
     background-color: aliceblue;
 }
@@ -14,14 +15,16 @@ main{
     grid-template-columns: 256px, 256px, 256px, 256px, 256px;
     grid-template-rows: 240px, 240px, 240px;
     background-color: aqua;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 .oldPyramidHead{
     display: grid;
     grid-column: 2;
     grid-row: 1;
-    width: 300px;
-    height: 115px;
+    width: 350px;
+    height: 120px;
 }
 
 p{
@@ -58,7 +61,7 @@ p{
     grid-row-start: 1;
     grid-row-end: 3;
     width: 250px;
-    height: 425px;
+    height: 420px;
 }
 
 .mannequinBack{
@@ -75,7 +78,7 @@ p{
     grid-column-end: 3;
     grid-row-start:2;
     width: 225px;
-    height: 150px;
+    height: 145px;
 }
 
 .lyingFigure{
@@ -83,23 +86,23 @@ p{
     grid-column: 5;
     grid-row:2;
     width: 115px;
-    height: 150px;
+    height: 145px;
 }
 
 .mandarin{
     display: grid;
     grid-column: 1;
     grid-row: 3;
-    width: 125px;
-    height: 225px;
+    width: 115px;
+    height: 180px;
 }
 
 .bubbleHeadNurseClose{
     display: grid;
     grid-column: 2;
     grid-row:3;
-    width: 125px;
-    height: 225px;
+    width: 115px;
+    height: 170px;
 }
 
 .abstractDaddy{
@@ -107,6 +110,6 @@ p{
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row: 3;
-    width: 500px;
-    height: 240px;
+    width: 420px;
+    height: 180px;
 }
