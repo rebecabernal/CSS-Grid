@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(61, 1, 1);
+    display:flex;
+    flex-flow: wrap;
+    max-width: 750px;
+    max-height: 800px;
+    flex-direction: column;
+    background-color: rgba(79, 33, 26, 0);
+    background-image: url("./imgSilentHill2/silentHill2Background.jpg");
+    background-size: 750px 850px;
+    background-blend-mode:color-dodge;
 }
 
 
@@ -11,7 +19,7 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: 256px, 256px, 256px, 256px, 256px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 240px, 240px, 240px;
     row-gap: 5px;
     column-gap: 5px;
@@ -34,6 +42,7 @@ p{
     font-style: oblique;
     width: 300px;
     height: 115px;
+    color: rgba(255, 34, 0, 0.345);
 }
 
 
