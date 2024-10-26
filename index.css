@@ -1,4 +1,9 @@
 body{
+    display:flex;
+    flex-flow: wrap;
+    max-width: 750px;
+    max-height: 750px;
+    flex-direction: column;
     background-color: rgba(79, 33, 26, 0);
     background-image: url("imgSilentHill2/background/silentHill2Background.jpg");
     background-size: 730px 750px;
