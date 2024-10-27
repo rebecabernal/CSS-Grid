@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     background-color: rgba(79, 33, 26, 0);
     background-image: url("imgSilentHill2/background/silentHill2Background.jpg");
-    background-size: 730px 750px;
+    background-size: 730px 770px;
     background-blend-mode:color-dodge;
     background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 240px, 240px, 240px;
-    row-gap: 5px;
+    row-gap: 8px;
     background-image: url("imgSilentHill2/background/redSquare.png");
     background-size: 425px 425px;
     background-repeat: no-repeat;
